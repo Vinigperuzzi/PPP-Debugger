@@ -1,0 +1,55 @@
+:root{
+    --primary: #0f3d53;
+    --secondary: #092430;
+    --highlight: #00fcd2;
+    --inverse: #460005;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    font-style: none;
+    text-decoration-line: none;    
+}
+
+.superior-menu{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    background-color: var(--inverse);
+    display: flex;
+    flex-direction: line;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-elem{
+    color: var(--highlight);
+    font-size: 2rem;
+    margin-left: 15vw;
+}
+
+.PPP-icon{
+    background-image: url("../imgs/ppp_icon.png");
+    height: 100%;
+    width: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+}
+
+.PPP-name{
+    font-size: 3rem;
+    justify-self: start;
+    margin-left: 2vw;
+}
+
+.test{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary);
+}
