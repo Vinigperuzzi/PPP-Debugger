@@ -54,3 +54,7 @@ a {
     height: 100vh;
     background-color: var(--primary);
 }
+
+#Home{
+    padding-top: 8vh;
+}
