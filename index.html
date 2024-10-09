@@ -10,27 +10,104 @@
     <div class="superior-menu">
         <div class="menu-elem PPP-icon"></div>
         <a href="#"><div class="menu-elem PPP-name">PPP Debugger</div></a>
-        <a href="#Downloads"><div class="menu-elem">Download</div></a>
-        <a href="#Tutorial"><div class="menu-elem">Tutorial</div></a>
-        <a href="#Links"><div class="menu-elem">Links</div></a>
+        <a href="#About"><div class="menu-elem">About</div></a>
+        <a href="#Docs"><div class="menu-elem">Links</div></a>
+        <a href="#Downloads"><div class="menu-elem">Downloads</div></a>
     </div>
 
     <section id="Home"></section>
         <div class="section-container">
-            <div>Improve GDB's usability with PPP</div>
+            <div id="S1-title">Improve GDB's usability with PPP Debugger</div>
+            <div id="S1-content">Plush Puppy Parallel Debugger will provide a full environment to your debugging session.</div>
+            <img src="assets/imgs/01_layout.png" width="80%" alt="Layout of PPP Debugger with all 3 superior docks, data inspector em thread control on right side and code area at the middle">
         </div>
     </section>
 
-    <section id="Download">
-        <div class="test"></div>
+    <section id="About">
+        <div class="section-container2">
+            <ul id="S2-title">
+                <li>
+                    <div class="SC2-list-elem">Debug parallel codes from C language using pthread or OpenMP libs or just regular C programs</div>
+                </li>
+                <li>
+                    <div class="SC2-list-elem">Easy change of threads context with intuitive buttons</div>
+                </li>
+                <li>
+                    <div class="SC2-list-elem">Inspect expressions value from different threads</div>
+                </li>
+                <li>
+                    <div class="SC2-list-elem">Command execution flow controlling all threads as GDB's default or just the selected threads for better debugging</div>
+                </li>
+                <li>
+                    <div class="SC2-list-elem">See advanced information such as the assembly code for the current thread or the list of values of the process registers</div>
+                </li>
+            </ul>
+            
+            <img src="assets/imgs/02_code.png" width="60%" alt="PPP layout with a C code displayed on code area" id="S2-content">
+        </div>
     </section>
 
-    <section id="Tutorial">
-        <div class="test"></div>
+    <section id="Docs">
+        <div class="section-container">
+            <div id="S3-title">Links</div>
+            <div class="card-container">
+                <a href="#" class="doc-card">
+                    <div class="card-content">
+                        <h3>GitHub - PPP Debugger</h3>
+                        <p>Access the repository of the tool</p>
+                    </div>
+                </a>
+                <a href="#" class="doc-card">
+                    <div class="card-content">
+                        <h3>My Personal Website</h3>
+                        <p>Explore my work and projects</p>
+                    </div>
+                </a>
+                <a href="#" class="doc-card">
+                    <div class="card-content">
+                        <h3>My GitHub Profile</h3>
+                        <p>Check out my repositories</p>
+                    </div>
+                </a>
+                <a href="#" class="doc-card">
+                    <div class="card-content">
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me on LinkedIn</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </section>
 
-    <section id="Links">
-        <div class="test"></div>
+    <section id="Downloads">
+        <div class="section-container">
+            <div id="S4-title">
+                Download the PPP Debugger
+                <div id="warning">
+                    (Note: This tool operates over the GDB, so your system must have the GDB installed)
+                </div>
+            </div>
+            <div class="card-container">
+                <a href="#" class="download-card" download="ppp_debugger_ubuntu">
+                    <div class="card-content">
+                        <img src="assets/imgs/linux_icon.png" alt="Ubuntu Icon" class="os-icon">
+                        <h3>Download for Unix Based Systems</h3>
+                    </div>
+                </a>
+                <a href="#" class="download-card" download="ppp_debugger_windows">
+                    <div class="card-content">
+                        <img src="assets/imgs/windows_icon.png" alt="Windows Icon" class="os-icon">
+                        <h3>Download for Windows</h3>
+                    </div>
+                </a>
+                <a href="#" class="download-card" download="ppp_debugger_macos">
+                    <div class="card-content">
+                        <img src="assets/imgs/macos_icon.png" alt="macOS Icon" class="os-icon">
+                        <h3>Download for macOS (Soon)</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
     </section>
 </body>
 </html>
