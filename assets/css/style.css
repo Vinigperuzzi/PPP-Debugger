@@ -231,3 +231,66 @@ a {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+@media (max-width: 480px) {
+    .superior-menu {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .menu-elem {
+        font-size: 1.5rem;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .PPP-icon {
+        width: 20%;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .PPP-name {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+
+    #S1-content {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    #S2-title {
+        font-size: 1.2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .doc-card, .download-card {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .card-content h3 {
+        font-size: 1.5rem;
+    }
+
+    #warning {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-elem {
+        font-size: 1.8rem;
+    }
+
+    #S1-content {
+        font-size: 1.8rem;
+    }
+
+    .doc-card, .download-card {
+        width: 45%;
+    }
+}
